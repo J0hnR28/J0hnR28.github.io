@@ -3,44 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>aboutme.JohnRCSC106</title>
 </head>
-<img src="csc106_banner.jpg">
-<body>
+<img src="mybanner.jpg">
+<style>
+body {background-image: url(myBackground1.jpg);;}
+h1{color:#a22fdc;}
+h2{color:#a22fdc;}
+p{color:#a22fdc;
+font-weight: bold;}
+h3{color:#a22fdc;}
+li{color:#a22fdc;}
+#fishAbtme{ float:left;
+    
+
+}
+#promAbtme{float:left;
+
+
+margin-right: 10px;}
+
+#hobies-head{float: left;
+   margin-left: 10px;
+
+}
+</style>
+<body> 
+<div>
+
+
 <h1 style="font-size:10px;"></h1>
-<table> 
+<table  > 
      <thead>
              <tr>
-                <a href="index.html"><img src= "home.png"></a>
-            </tr>
-    </thead>
-        
-     <thead> 
-            <tr>
-                <a href="javascripts.html"> <img src="js.png"></a>
-            </tr>
-     </thead>
-        
-    <thead>
-            <tr>
-                <a href="aboutme.html"><img src="aboutme.png"></a>
-            </tr>
-    </thead>
-         
+               <td> <a href="index.html"><img src= "home.png"></a></td>
+               <td> <a href="javascripts.html"> <img src= "javascripts.png"></a></td>
+               <td> <a href="aboutme.html"><img src= "about.png"></a></td>
+      
+             </tr>
         </table>
          
-    <h1>About Me</h1>
+    <h1>About Me <img id="fishAbtme" src ="johnR2.jpg" width="70px" ></h1>
     <h2>A little about me</h2>
-    <p> My name is John Restrepo im currently a freshman in college.I come from<br> 
+    <p><img id="promAbtme" width="70px" src="JohnR.jpg">My name is John Restrepo im currently a freshman in college.I come from<br> 
         Pawtucket, Rhode Island.My major is computer science and my minor is cyber<br> 
         secruity.I plan on working in the field of cyber secruity as ive been passionate about<br>
-         it for a couple of years now.I am excited to begin CSC 106 as there is a lot to learn. </p>
-    <h3>My hobies are...</h3>
-    <li>Working out</li>  <li>Videogames</li><br>
-    <table><img src="DALL·E 2024-09-06 15.04.33 - A modern gym with various workout equipment including treadmills, stationary bikes, weight machines, and free weights. The gym has a sleek design with.webp">
-        <row> <img src="DALL·E 2024-09-06 15.05.34 - A vibrant scene of a modern video game setup with multiple screens displaying different games. The room has a large TV screen mounted on the wall with.png" height="200"> </row>
+         it for a couple of years now.I am excited to begin CSC 106 as there is a lot to learn.I have several hobbies <br>
+         two of which are fishing and going to the gym </p>
+    <h3 id="hobies-head">My hobies
+    <li id="hobies-body">Fishing</li>  <li>Working out</li><br></h3>
+    <table><img id="hobies-head"width= "118" src="fishAbtme.jpg">
+        <row> <img id="hobies-head" src="gymAbtme.jpg" height="200"> </row>
         
     </table>
-   
+</div>
 </body>
 </html>
